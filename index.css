@@ -1,0 +1,73 @@
+@font-face {
+    src: url("scoreboard.ttf");
+    font-family: Scoreboard;
+}
+body {
+    margin: 0;
+}
+.points{
+    font-family: Scoreboard
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    color: white;
+    margin: auto;
+    width: auto;
+    height: 100vh;
+    border: 10px solid white;
+    border-radius: 5%
+}
+#home-points{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #F94F6D;
+    text-align: center;
+    font-family: Scoreboard;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px;
+    background: black;
+    padding: 40px;
+    margin: 20px
+}
+#guest-points{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #F94F6D;
+    text-align: center;
+    font-family: Scoreboard;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px;
+    background: black;
+    padding: 40px;
+    margin: 20px
+}
+h3{
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px;
+}
+button{
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color:  #9AABD8;
+    font-family: scoreboard;
+    background: none;
+    margin: 20px auto
+}
